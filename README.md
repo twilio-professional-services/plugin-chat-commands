@@ -69,10 +69,6 @@ The following sample commands are included:
 - **/hello** Inserts "Hello (customer name)!" into the message, using the `name` task attribute
 - **/smile** Immediately sends the 😀 emoji, without modifying the current input contents
 
-## Known Issue
-
-The built-in "attach files" button will clear the input field. Using a custom attachment implementation (such as [the custom message media example plugin](https://github.com/twilio-professional-services/plugin-custom-message-media)) avoids this issue.
-
 ## Paste combobox primitive example
 
 Also included is an unused `MessageInputWithCommandsPrimitive` component which is functionally identical to the `MessageInputWithCommands` component, however it is using the Paste combobox primitive to allow rendering a pure HTML textarea instead of the default Paste one-line input component.
